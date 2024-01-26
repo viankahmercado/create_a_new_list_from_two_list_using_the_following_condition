@@ -8,8 +8,9 @@
 # numbers from the first list and even numbers from the second list.
 
 # assign list 1 and list 2
+list1 = [10, 20, 25, 30, 35]
+list2 = [40, 45, 60, 75, 90]
 
 # loop and iterate for odd numbers 
 
 # loop and iterate for even numbers 
-        
