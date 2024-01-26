@@ -8,16 +8,19 @@
 # numbers from the first list and even numbers from the second list.
 
 # assign list 1 and list 2
-list1 = [10, 20, 25, 30, 35]
-list2 = [40, 45, 60, 75, 90]
+list_1 = [10, 20, 25, 30, 35]
+list_2 = [40, 45, 60, 75, 90]
+
+result_list = []
 
 # loop and iterate for odd numbers 
-for num in list1:
+for num in list_1:
     if num % 2 != 0:
         result_list.append(num)
         
 # loop and iterate for even numbers 
-for num in list2:
+for num in list_2:
     if num % 2 == 0:
         result_list.append(num)
-        
+
+print("Result list:", result_list)
